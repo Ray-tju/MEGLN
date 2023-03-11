@@ -5,9 +5,9 @@ from tqdm import tqdm
 import pandas as pd
 import trimesh
 import torch
-from dmifnet import config, data
-from dmifnet.eval import MeshEvaluator
-from dmifnet.utils.io import load_pointcloud
+from im2mesh import config, data
+from im2mesh.eval import MeshEvaluator
+from im2mesh.utils.io import load_pointcloud
 
 
 parser = argparse.ArgumentParser(
